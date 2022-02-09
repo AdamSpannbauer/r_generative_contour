@@ -2,6 +2,7 @@ library(shiny)
 library(colourpicker)
 
 ui <- fluidPage(
+  titlePanel("Make Stuff Do Art"),
   sidebarLayout(
     sidebarPanel(
       align = "center",
